@@ -1,0 +1,19 @@
+{
+  "name": "brainjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwooz/brainJs.git"
+  },
+  "author": "wooz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwooz/brainJs/issues"
+  },
+  "homepage": "https://github.com/cwooz/brainJs#readme"
+}
