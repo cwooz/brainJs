@@ -13,7 +13,7 @@ network.train(trainingData, {
   iterations: 2000
 });
 
-const output = network.run('I fixed the power supply');
-const output = network.run('The code has some bugs');
+const output = network.run('I fixed the power supply');  // Hardware
+// const output = network.run('The code has some bugs');  // Software
 
 console.log(`Category: ${output}`);
