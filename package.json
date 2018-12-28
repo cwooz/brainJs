@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cwooz/brainJs/issues"
   },
-  "homepage": "https://github.com/cwooz/brainJs#readme"
+  "homepage": "https://github.com/cwooz/brainJs#readme",
+  "dependencies": {
+    "brain.js": "^1.6.1"
+  }
 }
