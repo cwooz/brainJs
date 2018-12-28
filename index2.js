@@ -14,5 +14,6 @@ network.train(trainingData, {
 });
 
 const output = network.run('I fixed the power supply');
+const output = network.run('The code has some bugs');
 
 console.log(`Category: ${output}`);
