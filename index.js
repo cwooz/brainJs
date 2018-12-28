@@ -2,14 +2,7 @@ const brain = require('brain.js');
 
 const network = new brain.NeuralNetwork();
 
-// network.train([
-//   { input: [0, 0, 0], output: [0] },
-//   { input: [0, 0, 1], output: [0] },
-//   { input: [0, 1, 1], output: [0] },
-//   { input: [1, 0, 1], output: [1] },
-//   { input: [1, 1, 1], output: [1] }
-// ]);
-
+// #2nd Run
 network.train([
   { input: [1, 2], output: [1] },
   { input: [1, 3], output: [1] },
@@ -23,3 +16,12 @@ network.train([
 const output = network.run([1,4]);
 
 console.log(`Prob: ${output}`);
+
+// #1st Run
+// network.train([
+//   { input: [0, 0, 0], output: [0] },
+//   { input: [0, 0, 1], output: [0] },
+//   { input: [0, 1, 1], output: [0] },
+//   { input: [1, 0, 1], output: [1] },
+//   { input: [1, 1, 1], output: [1] }
+// ]);
